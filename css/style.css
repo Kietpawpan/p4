@@ -24,6 +24,7 @@
   }
   thead,tbody {
     text-align:left;
+    font-size:20px;
   }
   #data-table_wrapper {
     padding-bottom: 12px;
