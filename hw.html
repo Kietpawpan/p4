@@ -47,6 +47,10 @@
 <script>
 new DataTable('#example', {
     data:dataArray,
+	lengthMenu: [
+        [25, 50, -1],
+        ['All',50,25]
+    ],
     columns: [
          { data: 'วิชา' },
         { data: 'การบ้าน' },
