@@ -15,7 +15,7 @@ gantt
 ```mermaid
 gantt
     section มิ.ย.
-    เรียน : des1, 2024-05-31, 1d
+    เรียน : des1, 2024-05-31
     ปฐมนิเทศ ผปค. : des1, after des1, 1d
 ```
     
