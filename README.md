@@ -11,8 +11,9 @@ gantt
     เริ่มเรียนคาบ 8 :  des6, 2024-05-20, 10d
     ส่งคัดไทย :  des7, after des1, 7d
     สอบท่องอาขยาน :  des8, after des1, 15d
-    ฝึกท่องสูตรคูณ :active, des9, 2024-05-06, 24d
-    ฝึก Reading Aloud :active, des10, 2024-05-06, 24d
+    ฝึกอ่านอาขยาน :active, des9, 2024-05-06,9d
+    ฝึกท่องสูตรคูณ :active, des10, 2024-05-06, 24d
+    ฝึก Reading Aloud :active, des11, 2024-05-06, 24d
 
 
     section มิ.ย.
