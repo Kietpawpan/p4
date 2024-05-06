@@ -79,7 +79,7 @@
 
  		{
  			'วิชา': 'กิจกรรม',
- 			'การบ้าน': 'ใช้อีเมล sgcomxxx@student.sg.go.th',
+ 			'การบ้าน': '39xxx@student.sg.go.th sgcomxxx',
  			'กำหนดส่ง': 'ทุกวัน',
  			'Status': 'no'
  		},
