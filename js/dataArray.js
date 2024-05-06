@@ -53,7 +53,7 @@
 	"วิชา": "Developmental English", 
 	"การบ้าน": "อ่าน Reading Aloud บทที่ 1-5", 
 	"กำหนดส่ง": "ทุกวัน", 
-	"ภาพ": "https://drive.google.com/open?id=1ZgySMMD4pPvCdJwFBfMDdSRWyrrJEl1w", 
+	"ภาพ": "https://drive.google.com/file/d/12DMXH_ejWuLjUH-6IixU0wmU3GnrOWS1/view?usp=drivesdk", 
 	"Status": "no"}, 
 {
 	"วิชา": "กิจกรรม", 
