@@ -2,7 +2,7 @@
 ## พฤษภาคม 2567
 ```mermaid
 gantt
-    section ป้อน
+    section พ.ค.
     ปิดเทอม :active,    des1, 2024-05-06, 9d
     เปิดเทอม :  des2, after des1, 1d
     ส่งรูป ผปค. :  des3, after des1, 5d
@@ -14,8 +14,8 @@ gantt
 ## มิถุนายน 2567
 ```mermaid
 gantt
-    section ป้อน
-    เรียน : des1, 2024-05-31, 2024-06-01
+    section มิ.ย.
+    เรียน : des1, 2024-05-31, 1d
     ปฐมนิเทศ ผปค. : des1, after des1, 1d
 ```
     
