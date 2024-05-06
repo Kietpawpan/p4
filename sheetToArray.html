@@ -43,7 +43,7 @@
                   data[i] = "\n{\n'" + header[j] + "':'" + m[i][j] + "'";
                   code.push(data[i]);
                 } else if (j + 1 == header.length) {
-                  data[i] = "\n'" + header[j] + "':'" + m[i][j] + "'\n}";
+                  data[i] = "\n'" + header[j] + "':'" + m[i][j] + "'\n},";
                   code.push(data[i]);
                 } else {
                   data[i] = "\n'" + header[j] + "':'" + m[i][j] + "'";
