@@ -2,7 +2,7 @@
 ```mermaid
 gantt
     section ป้อน
-    ปิดเทอม :done,    des1, 2024-05-05,2024-05-16
+    ปิดเทอม :active,    des1, 2024-05-05,2024-16-05
     เปิดเทอม  :   active, des2, after des1, 1d
     ส่งรูปถ่าย นร.  :   active, des3, after des1, 2024-05-31
     ออกแบบ User Interface  :         des4, after des3, 1d
