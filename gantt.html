@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+<title>Family | Study</title>
+<head>
+
+    <base target="_top">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=yes;" />
+
+</head>
+  <body><br/>
+<pre class="mermaid" style="margin-top:10px">
+     gantt
+	title ป.4/1
+	dateFormat DD-MM-YYYY
+excludes    weekends
+    section พ.ค.
+    ปิดเทอม :active,    des1, 06-05-2024, 9d
+    ทำปกหนังสือ  :milestone, done,  des5, 2024-05-10, 5d
+    เตรียมรูป ผปค./นร. :  des3e, 2024-05-10, 5d
+    เปิดเทอม :  milestone, after des1, 1d
+    ส่งรูป ผปค. :  des3, after des1, 5d
+    ส่งรูปถ่าย นร.  :  des4, after des1, 15d
+    จ่ายค่าเทอม :  crit, 2024-05-20, 10d
+    เริ่มเรียนคาบ 8 : milestone,   2024-05-20, 10d
+    ส่งคัดไทย :  des7, after des1, 7d
+    สอบท่องอาขยาน :  des8, after des1, 15d
+    ฝึกอ่านอาขยาน :active, des9, 2024-05-06,9d
+    ฝึกท่องสูตรคูณ :active, des10, 2024-05-06, 24d
+    ฝึก Reading Aloud :active, des11, 2024-05-06, 24d
+
+    section มิ.ย.
+    ปฐมนิเทศ ผปค. : milestone, m1, 2024-06-01, 1d
+</pre>
+
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+      mermaid.initialize({ startOnLoad: true });
+    </script>
+  </body>
+</html>
