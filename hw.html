@@ -69,6 +69,36 @@ new DataTable('#example', {
 
 </script>
 
+<pre class="mermaid" style="margin-top:10px">
+     gantt
+	title ป.4/1
+	dateFormat DD-MM-YYYY
+	tickInterval 1week
+  weekday monday
+    section พ.ค.
+    	ปิดเทอม :active,    des1, 06-05-2024, 9d
+    	ทำปกหนังสือ  :milestone, done,  des5, 2024-05-10, 5d
+    	เตรียมรูป ผปค./นร. :  des3e, 2024-05-10, 5d
+   	เปิดเทอม :  milestone, after des1, 1d
+    	ส่งรูป ผปค. :  des3, after des1, 5d
+    	ส่งรูปถ่าย นร.  :  des4, after des1, 15d
+    	จ่ายค่าเทอม :  crit, 2024-05-20, 10d
+    	เริ่มเรียนคาบ 8 : milestone,   2024-05-20, 10d
+    	ส่งคัดไทย :  des7, after des1, 7d
+    	สอบท่องอาขยาน :  des8, after des1, 15d
+    	ฝึกท่องอาขยาน :active, des9, 2024-05-06,9d
+    	ฝึกท่องสูตรคูณ :active, des10, 2024-05-06, 24d
+    	ฝึก Reading Aloud :active, des11, 2024-05-06, 24d
+	ซื้อรองเท้าลูกเสือ: a12, 2024-05-16, 15d
+
+    section มิ.ย.
+    	ปฐมนิเทศ ผปค. : milestone, m1, 2024-06-01, 1d
+</pre>
+
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+      mermaid.initialize({ startOnLoad: true });
+    </script>
 
 
 
