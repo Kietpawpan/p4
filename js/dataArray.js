@@ -12,7 +12,7 @@
  			"การบ้าน": "ทำปกหนังสือ",
  			"กำหนดส่ง": "15 พ.ค. 67",
  			"ภาพ": "https://drive.google.com/open?id=16dGTvpQd0mHHU1CMwPgPv8gaEv8daryx",
- 			"Status": "no"
+ 			"Status": "yes"
  		},
  		{
  			"วิชา": "ภาษาไทย",
