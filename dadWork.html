@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+<title>Family | Work</title>
+<head>
+
+    <base target="_top">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=yes;" />
+
+</head>
+  <body><br/>
+<pre class="mermaid" style="margin-top:10px">
+     gantt
+	title May-June
+	tickInterval 1week
+  	weekday monday
+    	section พ.ค.
+		ประชุมกฐิน: done, milestone, a1, 2024-05-07, 1d
+		อบรม cyber security: active, milestone, a2, after a1, 1d
+		อบรม PDPA (มอบ จนท.): milestone, a3, after a2, 1d
+	       เตรียมประชุม กขร.สป.ทส. ครั้งที่ 2/2567: crit, a4, after a1, until a5
+		ประชุม กขร.สป.ทส. ครั้งที่ 2/2567: crit,milestone, a5, 2024-05-17, 3h
+		ต้อนรับผู้บริหารถวายพระพรฯ: a6, 2024-05-31, 2h
+	section มิ.ย.
+		กีฬา ทส.: milestone, a7, 2024-06-15, 1d
+		เตรียมบรรยาย e-Request: crit, a8, after a5, until a9
+		บรรยาย e-Request: crit, milestone, a9, 2024-06-28, 3h
+		สัมมนากอง: a10, after a9, 1d
+</pre>
+
+
+<pre class="mermaid" style="margin-top:10px">
+     gantt
+	title Nov
+	tickInterval 1day
+  	weekday monday
+	section พ.ย. 
+		ต้อนรับผู้บริหาร กฐิน: milestone, y1, 2024-11-01, 1h
+</pre>
+
+         
+
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+      mermaid.initialize({ startOnLoad: true });
+    </script>
+
+</body>
+
+  </body>
+</html>
