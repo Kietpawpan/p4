@@ -9,7 +9,7 @@ gantt
     เปิดเทอม :  des2, after des1, 1d
     ส่งรูป ผปค. :  des3, after des1, 5d
     ส่งรูปถ่าย นร.  :  des4, after des1, 15d
-    จ่ายค่าเทอม :  des6e, 2024-05-15, 10d
+    จ่ายค่าเทอม :  des6e, 2024-05-20, 10d
     เริ่มเรียนคาบ 8 :  des6, 2024-05-20, 10d
     ส่งคัดไทย :  des7, after des1, 7d
     สอบท่องอาขยาน :  des8, after des1, 15d
