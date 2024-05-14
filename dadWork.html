@@ -12,36 +12,59 @@
   <body><br/>
 <pre class="mermaid" style="margin-top:10px">
      gantt
-	title May-June
+	title ไตรมาส 2/2567
 	tickInterval 1week
   	weekday monday
     	section พ.ค.
 		ประชุมกฐิน: done, milestone, a1, 2024-05-07, 1d
 		อบรม cyber security: active, milestone, a2, after a1, 1d
 		อบรม PDPA (มอบ จนท.): milestone, a3, after a2, 1d
-		เตรียมประชุม กขร.สป.ทส. ครั้งที่ 2/2567: crit, a4, after a1, until a5
-		ประชุม กขร.สป.ทส. ครั้งที่ 2/2567: crit,milestone, a5, 2024-05-17, 3h
-		24-05 อบรมทำแผน Cyber (มอบ จนท.): crit, milestone, m1, 2024-05-24, 1d
+		เตรียมประชุม กขร.สป.ทส. ครั้งที่ 2/2567: active, a4, after a1, until a5
+		17 ประชุม กขร.สป.ทส. ครั้งที่ 2/2567: crit,milestone, a5, 2024-05-17, 3h
+		24 อบรมทำแผน Cyber (มอบ จนท.): crit, milestone, m1, 2024-05-24, 1d
 		27 Renew SSL Cert: crit, milestone, cert1, 2024-05-25, 2d
-		ต้อนรับผู้บริหารถวายพระพรฯ: a6, 2024-05-31, 2h
+		31 ต้อนรับผู้บริหารถวายพระพรฯ: a6, 2024-05-31, 2h
+		16 14.00 น. ประชุมเตรียมกิจกรรมเฉลิมพระเกียรติฯ (มอบคุณพิพัฒน์): m2, 2024-05-16, 3h
+		เตรียมความปลอดภัยไซเบอร์: active, a12, 2024-05-14, 15d	
+		ตอบแบบสำรวจโครงการฝึกอบรม ชะอำ: active, crit, a10, 2024-05-13,7d
+		20 ส่งแบบสำรวจโครงการฝึกอบรมชะอำ:crit, a11, 2024-05-20, 2h
 	section มิ.ย.
-		กีฬา ทส.: milestone, a7, 2024-06-15, 1d
+		15 กีฬา ทส.: milestone, a7, 2024-06-15, 1d
 		เตรียมบรรยาย e-Request: crit, a8, after a5, until a9
-		บรรยาย e-Request: crit, milestone, a9, 2024-06-28, 3h
-		สัมมนากอง: a10, after a9, 1d
-</pre>
+		28 บรรยาย e-Request: crit, milestone, a9, 2024-06-28, 3h
+	</pre>
 
 
 <pre class="mermaid" style="margin-top:10px">
      gantt
-	title Nov
-	tickInterval 1day
+	title ไตรมาส 3/2567
+	tickInterval 1week
   	weekday monday
+	section ก.ค.
+		5-7 สัมมนากอง: a10, 2024-07-05, 3d
 	section พ.ย. 
 		ต้อนรับผู้บริหาร กฐิน: milestone, y1, 2024-11-01, 1h
 </pre>
 
-         
+<pre class="mermaid" style="margin-top:10px">
+     gantt
+	title ไตรมาส 4/2567
+	tickInterval 1week
+  	weekday monday
+	
+</pre>
+
+<pre class="mermaid" style="margin-top:10px">
+     gantt
+	title ไตรมาส 1/2568
+	tickInterval 1week
+  	weekday monday
+	section ต.ค.
+		1 ขออนุมัติโครงการ e-Tracking Backend: crit, 168a1, 2024-07-05, 7d
+	section พ.ย. 
+		1 ต้อนรับผู้บริหาร กฐิน: milestone, y1, 2024-11-01, 1h
+</pre>  
+   
 
     <script type="module">
       import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
