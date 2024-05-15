@@ -14,7 +14,7 @@ function studyP3R1(){
     	var newDate2 = newDate1.replace("/","-");
     	var fDate = new Date(newDate2);
 	var subjects = "";
-	var engLab = "หนังสือ Power Up 3 เล่ม\n\n";
+	var engLab = "หนังสือ Power Up 3 เล่ม (ยังขาด 1 เล่ม)\n\n";
 	var thai = "สมุดภาษาไทยสีชมพู + วรรณคดีลำนำ + แบบฝึกหัดคัดไทย\n\n";
 	var mathIE = "หนังสือ Math (ไม่ใช้สมุด)\n\n";
 	var mathTH = "สมุดคณิตศาสตร์สีขาว\n\n";    	
@@ -31,7 +31,7 @@ function studyP3R1(){
   	var health = "สมุดสุขศึกษาสีชมพู + หนังสือสุขศึกษา\n\n";
 	var socialTH = "สมุดสังคมสีขาว + หนังสือสังคม\n\n";
 	var computer = "สมุดการงานอาชีพสีชมพู\n\n";
-	var history = "สมุดประวัติศาสตร์สีขาว + หนังสือประวัติศาสตร์\n\n";
+	var theHistory = "สมุดประวัติศาสตร์สีขาว + หนังสือประวัติศาสตร์\n\n";
 	var club = "ชมรม\n\n";
         var scout ="รองเท้าผ้าใบ เริ่มใส่ลูกเสือ 30 มิ.ย.\n\n";
 	var sport = "พละ รองเท้าผ้าใบ\n\n";
@@ -48,12 +48,12 @@ function studyP3R1(){
     	var thDate = fDate.getDate();
     	var thDay = dayName[tDay];
     	var thMonth = monthName[tMonth];
-	if(thDate=="16" && thMonth=="พฤษภาคม"){subjects = "ปฐมนิเทศน์\n\n" + "คัดไทย\n\n"+ everyday + engLab + funEng + scienceIE + devEng + scout + period8;} 
+	if(thDate=="16" && thMonth=="พฤษภาคม"){subjects = "ปฐมนิเทศน์\n\n" + "คัดไทย\n\n"+ everyday + engLab + funEng + scienceIE + devEng + scout + "ไม่มีคาบ 8\n\n";} 
 	else if(thDay=="จันทร์"){subjects = everyday + computer + scienceIE + chinese + thai + scienceTH + mathTH + period8;}
 	else if(thDay=="อังคาร"){subjects = everyday + scienceTH + mathIE + health + thai + socialIE + mathTH + club + period8;}
 	else if(thDay=="พุธ"){subjects = everyday + mathTH + scienceTH + funEng + thai + socialTH + mathIE + SGL + period8;}
 	else if(thDay=="พฤหัสบดี"){subjects = everyday + thai + sport + engLab + funEng + scienceIE + devEng + scout + period8;} 
-	else if(thDay=="ศุกร์"){subjects = everyday + socialIE + devEng + socialTH + art + history + mathTH + thai + period8;} 
+	else if(thDay=="ศุกร์"){subjects = everyday + socialIE + devEng + socialTH + art + theHistory + mathTH + thai + period8;} 
 	else{subjects="หยุดเรียน";}
 
     document.getElementById("myDate").innerHTML ="วัน" +  thDay + "ที่ "  +  thDate + " " + thMonth + " " + thYear + ":\n==================\n\n"   
