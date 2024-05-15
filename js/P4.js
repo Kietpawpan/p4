@@ -14,7 +14,7 @@ function studyP3R1(){
     	var newDate2 = newDate1.replace("/","-");
     	var fDate = new Date(newDate2);
 	var subjects = "";
-	var engLab = "หนังสือ Power Up + หนังสือ Journal + สมุด Fun Eng สีขาว\n\n";
+	var engLab = "หนังสือ Eng Lab\n\n";
 	var thai = "สมุดภาษาไทยสีชมพู + วรรณคดีลำนำ + แบบฝึกหัดคัดไทย\n\n";
 	var mathIE = "หนังสือ Math (ไม่ใช้สมุด)\n\n";
 	var mathTH = "สมุดคณิตศาสตร์สีขาว\n\n";    	
