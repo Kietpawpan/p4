@@ -33,7 +33,7 @@ function studyP3R1(){
 	var computer = "สมุดการงานอาชีพสีชมพู\n\n";
 	var history = "สมุดประวัติศาสตร์สีขาว + หนังสือประวัติศาสตร์\n\n";
 	var club = "ชมรม\n\n";
-        var scout ="รองเท้าผ้าใบ (เริ่มใส่ลูกเสือ 30 มิ.ย.)\n\n";
+        var scout ="รองเท้าผ้าใบ เริ่มใส่ลูกเสือ 30 มิ.ย.\n\n";
 	var sport = "พละ รองเท้าผ้าใบ\n\n";
 	var music = "ดนตรีไทย\n\n";
 	var SGL = "SGL\n\n";
