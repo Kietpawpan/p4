@@ -48,7 +48,8 @@ function studyP3R1(){
     	var thDate = fDate.getDate();
     	var thDay = dayName[tDay];
     	var thMonth = monthName[tMonth];
-	if(thDay=="จันทร์"){subjects = everyday + computer + scienceIE + chinese + thai + scienceTH + mathTH + period8;}
+	if(thDay=="พฤหัสบดี" && sDate=="2024-05-16"){subjects = "ปฐมนิเทศน์\n\n" + everyday + sport + engLab + funEng + scienceIE + devEng + scout + period8;} 
+	else if(thDay=="จันทร์"){subjects = everyday + computer + scienceIE + chinese + thai + scienceTH + mathTH + period8;}
 	else if(thDay=="อังคาร"){subjects = everyday + scienceTH + mathIE + health + thai + socialIE + mathTH + club + period8;}
 	else if(thDay=="พุธ"){subjects = everyday + mathTH + scienceTH + funEng + thai + socialTH + mathIE + SGL + period8;}
 	else if(thDay=="พฤหัสบดี"){subjects = everyday + thai + sport + engLab + funEng + scienceIE + devEng + scout + period8;} 
