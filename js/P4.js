@@ -19,7 +19,7 @@ function studyP3R1(){
 	var mathIE = "หนังสือ Math (ไม่ใช้สมุด)\n\n";
 	var mathTH = "สมุดคณิตศาสตร์สีขาว\n\n";    	
 	var scienceTH = "สมุดวิทย์สีขาว + หนังสือวิทย์ + แบบฝึกหัดวิทย์\n\n";
-	var scienceIE = "สมุด Science สีชมพู + My World of Science\n\n";
+	var scienceIE = "สมุด Science สีชมพู + My World of Science (ยังไม่มี)\n\n";
 	var socialTH = "สมุดสังคมสีขาว + หนังสือสังคม-ประวัติศาสตร์\n\n";
 	var socialIE = "สมุด Social สีชมพู + หนังสือ My World of Social Studies\n\n";
 	var funEng = "สมุด Fun Eng สีขาว + หนังสือ Power Up + ส่งหนังสือ Handwriting\n\n";
@@ -33,7 +33,7 @@ function studyP3R1(){
 	var computer = "สมุดการงานอาชีพสีชมพู\n\n";
 	var history = "สมุดประวัติศาสตร์สีขาว + หนังสือประวัติศาสตร์\n\n";
 	var club = "ชมรม\n\n";
-        var scout ="30 มิย ใส่ชุดลูกเสือ\n\n";
+        var scout ="30 มิย รองเท้าผ้าใบ\n\n";
 	var sport = "พละ รองเท้าผ้าใบ\n\n";
 	var music = "ดนตรีไทย\n\n";
 	var SGL = "SGL\n\n";
