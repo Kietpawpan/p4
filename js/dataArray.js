@@ -140,7 +140,7 @@
 'วิชา':'กิจกรรม',
 'การบ้าน':'เข้า Google classroom',
 'กำหนดส่ง':'ทุกวัน',
-'ภาพ':'https://classroom.google.com/u/1/r/Njg0MjQ1MjMxMTE2/',
+'ภาพ':'https://classroom.google.com/u/1/r/Njg0MjQ1MjMxMTE2?pli=1',
 'Status':'no'
 },
 
