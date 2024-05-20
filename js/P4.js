@@ -21,7 +21,7 @@ function studyP3R1(){
 	var scienceTH = "สมุดวิทย์สีขาว + หนังสือวิทย์ + แบบฝึกหัดวิทย์\n\n";
 	var scienceIE = "สมุด Science สีชมพู + My World of Science (ยังไม่มี)\n\n";
 	var socialTH = "สมุดสังคมสีขาว + หนังสือสังคม-ประวัติศาสตร์\n\n";
-	var socialIE = "สมุด Social สีชมพู + หนังสือ My World of Social Studies\n\n";
+	var socialIE = "สมุด Social สีชมพู + หนังสือยังไม่มี\n\n";
 	var funEng = "สมุด Fun Eng สีขาว + หนังสือ Power Up + ส่งหนังสือ Handwriting\n\n";
 	var devEng = "สมุด Dev Eng สีขาว + หนังสือ Power Up\n\n";
   	var health = "สมุดสุขศึกษาสีชมพู + หนังสือสุขศึกษา\n\n";
