@@ -15,11 +15,11 @@ function studyP3R1(){
     	var fDate = new Date(newDate2);
 	var subjects = "";
 	var engLab = "หนังสือ Power Up 3 เล่ม (ยังขาด 1 เล่ม)\n\n";
-	var thai = "สมุดภาษาไทยสีชมพู + วรรณคดีลำนำ + แบบฝึกหัดคัดไทย\n\n";
+	var thai = "สมุดภาษาไทยสีชมพู + วรรณคดีลำนำ\n\n";
 	var mathIE = "หนังสือ Math (ไม่ใช้สมุด)\n\n";
 	var mathTH = "สมุดคณิตศาสตร์สีขาว\n\n";    	
 	var scienceTH = "สมุดวิทย์สีขาว + หนังสือวิทย์ + แบบฝึกหัดวิทย์\n\n";
-	var scienceIE = "สมุด Science สีชมพู + My World of Science (ยังไม่มี)\n\n";
+	var scienceIE = "สมุด Science สีชมพู + Star Science\n\n";
 	var socialTH = "สมุดสังคมสีขาว + หนังสือสังคม-ประวัติศาสตร์\n\n";
 	var socialIE = "สมุด Social สีชมพู + หนังสือยังไม่มี\n\n";
 	var funEng = "สมุด Fun Eng สีขาว + หนังสือ Power Up + ส่งหนังสือ Handwriting\n\n";
