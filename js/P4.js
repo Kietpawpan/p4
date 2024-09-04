@@ -22,7 +22,7 @@ function studyP3R1(){
 	var scienceIE = "สมุด Science สีชมพู + Star Science\n\n";
 	var socialTH = "สมุดสังคมสีขาว + หนังสือสังคม-ประวัติศาสตร์\n\n";
 	var socialIE = "สมุด Social สีชมพู + หนังสือยังไม่มี ใส่สันเหลืองให้ชีท \n\n";
-	var funEng = "สมุด Fun Eng สีขาว + หนังสือ Power Up + ส่งหนังสือ sheet\n\n";
+	var funEng = "สมุด Fun Eng สีขาว + หนังสือ Power Up + ส่งหนังสือ sheet + Handwriting พุธ\n\n";
 	var devEng = "สมุด Dev Eng สีขาว + หนังสือ Power Up\n\n";
   	var health = "สมุดสุขศึกษาสีชมพู + หนังสือสุขศึกษา\n\n";
 	var chinese = "หนังสือภาษาจีน (ไม่ใช้สมุด)\n\n";
