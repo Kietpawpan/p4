@@ -16,7 +16,7 @@ function studyP3R1(){
 	var subjects = "";
 	var engLab = "หนังสือ Power Up 3 เล่ม\n\n";
 	var thai = "สมุดภาษาไทยสีชมพู + วรรณคดีลำนำ + sheet\n\n";
-	var mathIE = "หนังสือ Math (ไม่ใช้สมุด)\n\n";
+	var mathIE = "หนังสือ Math 4B (ไม่ใช้สมุด)\n\n";
 	var mathTH = "สมุดคณิตศาสตร์สีขาว + หนังสือคณิต\n\n";    	
 	var scienceTH = "สมุดวิทย์สีขาว + หนังสือวิทย์ + แบบฝึกหัดวิทย์\n\n";
 	var scienceIE = "สมุด Science สีชมพู + Star Science\n\n";
