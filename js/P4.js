@@ -27,7 +27,7 @@ function studyP3R1(){
   	var health = "สมุดสุขศึกษาสีชมพู + หนังสือสุขศึกษา\n\n";
 	var chinese = "หนังสือภาษาจีน (ไม่ใช้สมุด)\n\n";
 	var art = "สมุดวาดเขียน + สี oil pastel 36 สีขึ้นไป แปรง ใส่กระเป๋าเล็ก\n\n"
-  	var everyday = "สมุดจดการบ้าน + สมุดสำรองสีขาว + หนังสือ Reading Aloud + หนังสือ My World of Vocabulary + สีไม้\n\n";
+  	var everyday = "สมุดจดการบ้าน + สมุดสำรองสีขาว + morning program + คัดไทย + หนังสือ Reading Aloud + หนังสือ My World of Vocabulary + สีไม้\n\n";
   	var health = "สมุดสุขศึกษาสีชมพู + หนังสือสุขศึกษา\n\n";
 	var socialTH = "สมุดสังคมสีขาว + หนังสือสังคม\n\n";
 	var computer = "สมุดการงานอาชีพสีชมพู\n\n";
